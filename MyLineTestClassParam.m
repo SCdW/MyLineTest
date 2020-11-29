@@ -1,4 +1,4 @@
-classdef myLineTestClassParam < matlab.unittest.TestCase
+classdef MyLineTestClassParam < matlab.unittest.TestCase
         
     % Test Properties
     properties (TestParameter)

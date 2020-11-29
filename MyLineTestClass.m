@@ -1,4 +1,4 @@
-classdef myLineTestClass < matlab.unittest.TestCase
+classdef MyLineTestClass < matlab.unittest.TestCase
         
     % Test Methods
     methods (Test)
