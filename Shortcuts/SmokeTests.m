@@ -1,3 +1,3 @@
 
 cp = currentProject;
-runtests('SmokeTest','ReportCoverageFor',cp.RootFolder)
+runtests('SmokeTest')
