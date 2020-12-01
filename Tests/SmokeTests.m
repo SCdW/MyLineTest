@@ -28,6 +28,14 @@ classdef SmokeTests < matlab.unittest.TestCase
         
     end
     
+    methods (TestClassTeardown)
+        
+        function closeEditor(~)
+            closeEditor;
+        end
+        
+    end
+    
     methods (Test)
         
         function demoShouldNotWarn(testCase, DemoFile)       
