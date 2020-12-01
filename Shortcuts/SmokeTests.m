@@ -1,3 +1,0 @@
-
-cp = currentProject;
-runtests('SmokeTest')
