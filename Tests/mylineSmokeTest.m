@@ -1,4 +1,4 @@
-function t = SmokeTest()
+function t = mylineSmokeTest()
 
     % Return the tests in this file
     t = functiontests(localfunctions);
