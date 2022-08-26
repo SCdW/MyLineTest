@@ -1,6 +1,6 @@
 test:
     tags:
-        - matlab_win64
+        - on-prem
     variables:
         GIT_SUBMODULE_STRATEGY: recursive
     script:
