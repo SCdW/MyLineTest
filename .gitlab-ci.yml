@@ -4,5 +4,4 @@ test:
     variables:
         GIT_SUBMODULE_STRATEGY: recursive
     script:
-        - mw -using BR2022ad matlab -batch "openProject(pwd); assertSuccess(runtests);"
-
+        - mw -using $CURRENT_MATLAB_RELEASE matlab -batch "openProject(pwd); assertSuccess(runtests);"
