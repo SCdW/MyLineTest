@@ -14,8 +14,8 @@ end
 
 % Does a negative input for x break "myline"?
 function testNegativeX(testCase)
-    y = myline(-1, 2, 3);
-    verifyEqual(testCase, y, 1) 
+    y = myline(-5, 2, 3);
+    verifyEqual(testCase, y, -7) 
  
 end
 

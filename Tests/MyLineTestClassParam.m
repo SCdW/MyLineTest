@@ -2,8 +2,8 @@ classdef MyLineTestClassParam < matlab.unittest.TestCase
         
     % Test Properties
     properties (TestParameter)
-        x = {1, -1, 1:3, NaN}
-        yexpected = {5, 1, 5:2:9, NaN}
+        x = {1, -5, 1:3, NaN}
+        yexpected = {5, -7, 5:2:9, NaN}
     end
 
     % Test Methods
