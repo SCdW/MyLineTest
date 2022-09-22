@@ -12,8 +12,8 @@ classdef MyLineTestClass < matlab.unittest.TestCase
         
         % Does a negative input for x break "myline"?
         function shouldTestNegativeX(testCase)
-            y = myline(-1, 2, 3);
-            verifyEqual(testCase, y, 1)
+            y = myline(-5, 2, 3);
+            verifyEqual(testCase, y, -7)
 
         end %shouldTestNegativeX
         
