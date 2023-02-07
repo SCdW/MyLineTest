@@ -6,7 +6,7 @@ classdef MyLineTestClass < matlab.unittest.TestCase
         % Does "myline" give me the right answer?
         function shouldGiveCorrectAnswer(testCase)    
             y = myline(1, 2, 3);
-            verifyEqual(testCase, y, 5)
+            verifyEqual(testCase, y, 6)
             
         end %shouldGiveCorrectAnswer
         
